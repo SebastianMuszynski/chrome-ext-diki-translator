@@ -1,0 +1,15 @@
+.dikiTranslationIframe {
+  box-shadow: 0 0 15px black;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100vh;
+  z-index: 1000000;
+  transition: 1s width;
+}
+
+.dikiTranslationIframe.visible {
+  width: 25vw;
+}
