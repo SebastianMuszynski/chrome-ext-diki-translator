@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Diki Translator",
-  "description": "Select a word and press 'd' twice to translate!",
+  "description": "Translates the selected word after pressing 'd' twice.",
   "version": "1.0.0",
   "author": "Sebastian Muszynski",
 
@@ -18,5 +18,9 @@
   },
   "permissions": [
     "activeTab"
-  ]
+  ],
+  "icons": {
+    "16": "img/icon16.png",
+    "64": "img/icon64.png"
+  }
 }
