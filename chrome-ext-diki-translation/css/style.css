@@ -7,7 +7,7 @@
   width: 0;
   height: 100vh;
   z-index: 1000000;
-  transition: 1s width;
+  transition: .5s width;
 }
 
 .dikiTranslationIframe.visible {
